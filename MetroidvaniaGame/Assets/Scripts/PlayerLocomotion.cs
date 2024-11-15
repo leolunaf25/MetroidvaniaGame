@@ -10,6 +10,7 @@ public class PlayerLocomotion: MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Animator animator;
 
     void Update()
     {
@@ -28,7 +29,12 @@ public class PlayerLocomotion: MonoBehaviour
         if (horizontal != 0)
         {
             spriteRenderer.flipX = horizontal < 0f;
+            animator.SetBool("walk",true);
+        }else{
+            animator.SetBool("walk",false);
         }
+        
+
     }
 
     private bool IsGrounded()
