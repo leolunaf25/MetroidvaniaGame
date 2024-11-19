@@ -4,7 +4,7 @@ public class PlayerLocomotion : MonoBehaviour
 {
     // Variables de movimiento
     private float horizontal;
-    private float speed = 5f; // Velocidad ajustada para un metroidvania
+    private float speed = 5f;
     private float jumpingPower = 8f;
 
     // Componentes y referencias
@@ -14,10 +14,16 @@ public class PlayerLocomotion : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Animator animator;
 
+    // Estado del personaje
+    private bool isGrounded;
+
     void Update()
     {
         // Captura del input horizontal
         horizontal = Input.GetAxisRaw("Horizontal");
+
+        // Actualizar el estado de si está en el suelo
+        isGrounded = IsGrounded();
 
         // Lógica de salto
         HandleJump();
@@ -41,7 +47,7 @@ public class PlayerLocomotion : MonoBehaviour
     private void HandleJump()
     {
         // Salto solo si está en el suelo
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
         }
@@ -49,18 +55,11 @@ public class PlayerLocomotion : MonoBehaviour
 
     private void UpdateAnimator()
     {
-        // Actualizar animaciones según el estado
-        animator.SetBool("grounded", IsGrounded());
-        animator.SetFloat("velocityY", rb.linearVelocity.y);
+        // Animación de caminar
+        animator.SetBool("walk", horizontal != 0 && isGrounded);
 
-        if (horizontal != 0)
-        {
-            animator.SetBool("walk", true);
-        }
-        else
-        {
-            animator.SetBool("walk", false);
-        }
+        // Animación de salto (cuando no está en el suelo)
+        animator.SetBool("jump", !isGrounded);
     }
 
     private bool IsGrounded()
