@@ -16,7 +16,7 @@ public class PlayerLocomotion : MonoBehaviour
 
     // Estado del personaje
     private bool isGrounded;
-    private bool isAttacking; // Nuevo estado para el ataque
+    public bool isAttacking; // Nuevo estado para el ataque
 
     void Update()
     {
@@ -66,7 +66,15 @@ public class PlayerLocomotion : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && !isAttacking)
         {
             isAttacking = true;
+            rb.linearVelocity = new Vector2(0, 0);
             animator.SetTrigger("attack"); // Trigger para la animación de ataque
+        }
+
+        if (Input.GetMouseButtonDown(1) && !isAttacking)
+        {
+            isAttacking = true;
+            rb.linearVelocity = new Vector2(0, 0);
+            animator.SetTrigger("kick"); // Trigger para la animación de ataque
         }
     }
 
@@ -99,6 +107,5 @@ public class PlayerLocomotion : MonoBehaviour
     public void EndAttack()
     {
         isAttacking = false;
-        animator.ResetTrigger("attack"); // Resetea el Trigger para permitir futuros ataques
     }
 }
