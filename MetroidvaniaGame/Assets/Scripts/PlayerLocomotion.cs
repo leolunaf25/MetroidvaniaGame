@@ -62,22 +62,38 @@ public class PlayerLocomotion : MonoBehaviour
 
     private void HandleAttack()
     {
-        // Activar animación de ataque al hacer clic izquierdo
-        if (Input.GetMouseButtonDown(0) && !isAttacking)
-        {
-            isAttacking = true;
-            rb.linearVelocity = new Vector2(0, 0);
-            animator.SetTrigger("attack"); // Trigger para la animación de ataque
-        }
+        string[] triggers = { "punch", "kick", "blaster" };
 
-        if (Input.GetMouseButtonDown(1) && !isAttacking)
+        // Activar animación de ataque al hacer clic izquierdo
+        for (int i = 0; i < triggers.Length; i++)
         {
-            isAttacking = true;
-            rb.linearVelocity = new Vector2(0, 0);
-            animator.SetTrigger("kick"); // Trigger para la animación de ataque
+            if (Input.GetMouseButtonDown(i) && !isAttacking)
+            {
+                isAttacking = true;
+                rb.linearVelocity = new Vector2(0, 0);
+                animator.SetTrigger(triggers[i]);
+                break;
+            }
         }
     }
+    /*
+    private void HandleAttack()
+    {
+        KeyCode[] attackKeys = { KeyCode.Z, KeyCode.X, KeyCode.C };
+        string[] triggers = { "uno", "dos", "tres" };
 
+        for (int i = 0; i < attackKeys.Length; i++)
+        {
+            if (Input.GetKeyDown(attackKeys[i]) && !isAttacking)
+            {
+                isAttacking = true;
+                rb.velocity = new Vector2(0, 0);
+                animator.SetTrigger(triggers[i]);
+                break;
+            }
+        }
+    }
+    */
     private void UpdateAnimator()
     {
         // Animación de caminar

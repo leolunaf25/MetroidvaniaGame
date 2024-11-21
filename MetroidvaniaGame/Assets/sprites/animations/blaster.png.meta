@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: d7bf5e1081bc94564b92b284d0f52b4f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3537879861638250659
+    second: blaster_0
+  - first:
+      213: 1846369228051487561
+    second: blaster_1
+  - first:
+      213: -4181531760278584453
+    second: blaster_2
+  - first:
+      213: 8307651248152825360
+    second: blaster_3
+  - first:
+      213: 5498081924573106844
+    second: blaster_4
+  - first:
+      213: 5006658518042923966
+    second: blaster_5
+  - first:
+      213: -6348954735684209524
+    second: blaster_6
+  - first:
+      213: 3062876656966381425
+    second: blaster_7
+  - first:
+      213: 3682915905054683586
+    second: blaster_8
+  - first:
+      213: -3760222944737345479
+    second: blaster_9
+  - first:
+      213: -2047022238975083479
+    second: blaster_10
+  - first:
+      213: 4601700571403548169
+    second: blaster_11
+  - first:
+      213: -4391704711229659623
+    second: blaster_12
+  - first:
+      213: -867321595795008512
+    second: blaster_13
+  - first:
+      213: -4347184337196281890
+    second: blaster_14
+  - first:
+      213: 7127024635537493655
+    second: blaster_15
+  - first:
+      213: 8459182798744350014
+    second: blaster_16
+  - first:
+      213: 8230036041555006962
+    second: blaster_17
+  - first:
+      213: 2588157418554755670
+    second: blaster_18
+  - first:
+      213: -2011535294931112185
+    second: blaster_19
+  - first:
+      213: -2122188659789787096
+    second: blaster_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blaster_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1635
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0c4fa5df2191130800000000000000
+      internalID: 3537879861638250659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_1
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1635
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b983ac70f9f9910800000000000000
+      internalID: 1846369228051487561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_2
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1635
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73c49bc40738f5c0800000000000000
+      internalID: -4181531760278584453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_3
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1635
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ecafb5bc4ba4370800000000000000
+      internalID: 8307651248152825360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1308
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c921d2c516c1d4c40800000000000000
+      internalID: 5498081924573106844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_5
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1308
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3d1af45693b7540800000000000000
+      internalID: 5006658518042923966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_6
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1308
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84328c5e4bf3e7a0800000000000000
+      internalID: -6348954735684209524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_7
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1308
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f21597716818a20800000000000000
+      internalID: 3062876656966381425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 981
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1bb62b0885c1330800000000000000
+      internalID: 3682915905054683586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_9
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 981
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93048ae772101dbc0800000000000000
+      internalID: -3760222944737345479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_10
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 981
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92cb0968e148793e0800000000000000
+      internalID: -2047022238975083479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_11
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 981
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9067831f9468cdf30800000000000000
+      internalID: 4601700571403548169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 654
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9162fb855d78d03c0800000000000000
+      internalID: -4391704711229659623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_13
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 654
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0041d989a97a6f3f0800000000000000
+      internalID: -867321595795008512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_14
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 654
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf0640b0e2bba3c0800000000000000
+      internalID: -4347184337196281890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_15
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 654
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e8baa352748e260800000000000000
+      internalID: 7127024635537493655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 327
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d6041dfed056570800000000000000
+      internalID: 8459182798744350014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_17
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 327
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f55c89dc26f63270800000000000000
+      internalID: 8230036041555006962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_18
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 327
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a8fb3a57bfae320800000000000000
+      internalID: 2588157418554755670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_19
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 327
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f687c8e479514e0800000000000000
+      internalID: -2011535294931112185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blaster_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 475
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8201ed268a87c82e0800000000000000
+      internalID: -2122188659789787096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b467f7b2e022147b6bc207c60ba43db9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blaster_0: 3537879861638250659
+      blaster_1: 1846369228051487561
+      blaster_10: -2047022238975083479
+      blaster_11: 4601700571403548169
+      blaster_12: -4391704711229659623
+      blaster_13: -867321595795008512
+      blaster_14: -4347184337196281890
+      blaster_15: 7127024635537493655
+      blaster_16: 8459182798744350014
+      blaster_17: 8230036041555006962
+      blaster_18: 2588157418554755670
+      blaster_19: -2011535294931112185
+      blaster_2: -4181531760278584453
+      blaster_20: -2122188659789787096
+      blaster_3: 8307651248152825360
+      blaster_4: 5498081924573106844
+      blaster_5: 5006658518042923966
+      blaster_6: -6348954735684209524
+      blaster_7: 3062876656966381425
+      blaster_8: 3682915905054683586
+      blaster_9: -3760222944737345479
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
