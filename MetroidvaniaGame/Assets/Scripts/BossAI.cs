@@ -11,6 +11,7 @@ public class BossAI : MonoBehaviour
     private Animator animator;
     private float lastAttackTime = 0f; // Tiempo del último ataque
     private bool isAttacking = false;
+    private bool isInAttackRange = false; // Indica si está dentro del rango de ataque
 
     void Start()
     {
@@ -23,26 +24,31 @@ public class BossAI : MonoBehaviour
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
         if (isAttacking)
-            return; // Si está atacando, no puede moverse
+            return; // Si está atacando, no puede hacer nada más
 
         if (distanceToPlayer <= attackRange)
         {
+            isInAttackRange = true;
+            Idle(); // No moverse mientras espera atacar
             AttackPlayer();
         }
         else if (distanceToPlayer <= followRange)
         {
+            isInAttackRange = false;
             FollowPlayer();
         }
         else
         {
+            isInAttackRange = false;
             Idle();
         }
     }
 
     void FollowPlayer()
     {
+        if (isInAttackRange) return; // Evitar que se mueva si está en rango de ataque
+
         animator.SetBool("walk", true); // Activar animación de caminar
-        animator.SetBool("idle", false);
 
         // Mover al jefe hacia el jugador
         Vector2 direction = (player.position - transform.position).normalized;
@@ -75,11 +81,22 @@ public class BossAI : MonoBehaviour
     void Idle()
     {
         animator.SetBool("walk", false);
-        animator.SetBool("idle", true);
     }
 
     void FinishAttack()
     {
         isAttacking = false;
+    }
+
+    // Dibujar los rangos en el editor usando Gizmos
+    void OnDrawGizmosSelected()
+    {
+        // Dibujar el rango de seguimiento (followRange) en azul
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position, followRange);
+
+        // Dibujar el rango de ataque (attackRange) en rojo
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
     }
 }
